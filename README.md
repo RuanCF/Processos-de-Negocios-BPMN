@@ -39,7 +39,7 @@ Junto com o diagrama BPMN, entregue uma documentação breve explicando:
 - Atendimento ao Cliente em um Call Center
 - Processo de Abertura de Chamado em Suporte Técnico
 
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Tema escolhido: Pedido de Comida via Aplicativo com Pagamento e Entrega
 Modelagem de forma clara e "quase" completa do processo de solicitação de comida através de um aplicativo, envolvendo as etapas desde o login do cliente até a entrega do pedido e confirmação de recebimento. O processo contempla situações de falha no pagamento, rejeição de pedido, ausência de entregador, e falhas na entrega.
@@ -119,4 +119,3 @@ Se não: Entregador tenta contato com cliente. Se não, entregador entra em cont
 # Possíveis Melhorias
 - Implementação de funcionalidade como links, mensagens e dados(se aplicáveis).
 - Melhora no fluxo do diagrama
-- 
