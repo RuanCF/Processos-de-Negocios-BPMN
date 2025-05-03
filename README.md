@@ -54,7 +54,7 @@ Atua como intermediário entre cliente, restaurante e entregador. Valida o pagam
 #### 3. Restaurante
 Recebe os pedidos, decide se irá aceitá-los ou não, prepara os pedidos aceitos e informa ao sistema quando estiverem prontos para retirada.
 
-#### 4. Realizar Entrega ao Cliente (Entregador)
+#### 4. Entregador
 Responsável por aceitar a corrida, retirar o pedido no restaurante e entregá-lo ao cliente, com manejo de exceções caso o cliente não esteja disponível.
 
 OBS.: Projeto está montado em cima do conceito de que o restaurante não apresenta um entregador fixo.
