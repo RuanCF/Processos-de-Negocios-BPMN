@@ -17,8 +17,7 @@ Responsável pela logística de entrega. Aceita ou recusa a corrida, realiza a r
 Observação: O modelo considera que o restaurante não possui entregadores próprios fixos, utilizando um sistema de entrega terceirizado.
 
 
-## Descrição das Etapas do Processo
-
+# Descrição das Etapas do Processo
 ## Login / Registrar (Cliente)
 ### Descrição:
 O cliente inicia o processo acessando sua conta pessoal por meio de login ou, se for a primeira utilização, realizando o registro com informações básicas (nome, e-mail, senha, telefone). Essa autenticação é essencial para garantir segurança, associar o pedido a um perfil individual, acessar histórico de pedidos, endereços salvos e métodos de pagamento previamente cadastrados. Além disso, permite a personalização de ofertas e comunicação com o cliente ao longo do processo.
@@ -134,12 +133,13 @@ Após o recebimento do pedido, o cliente acessa o aplicativo para confirmar a en
 ## Feedback Final (Cliente)
 ### Descrição:
 Com o pedido finalizado, o sistema convida o cliente a avaliar sua experiência por meio de uma nota e/ou comentário. A avaliação pode abranger a qualidade da comida, o tempo de entrega, o atendimento do entregador e a experiência geral com o aplicativo. Esse feedback é essencial para aprimorar o serviço, alimentar algoritmos de recomendação e fornecer dados relevantes a restaurantes e operadores logísticos. Além disso, avaliações negativas podem acionar protocolos de suporte ao cliente.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Possíveis Melhorias
 - Implementação de funcionalidade como links, mensagens e dados(se aplicáveis).
-- Melhora no fluxo do diagrama
+- Desenvolvimento em outro site ou programa, para uma melhora visual.
+- Melhora no fluxo do diagrama.
 
 # Melhorias aplicadas após apresentação prévia
 - Melhor desenvolvimento da documentação do processo de cada etapa.
 
-![bpmn project](https://github.com/RuanCF/Processos-de-Negocios-BPMN/blob/main/ProcessosDeNeg%C3%B3ciosBPMN.jpg)
+![bpmn project image](https://github.com/RuanCF/Processos-de-Negocios-BPMN/blob/main/ProcessosDeNeg%C3%B3ciosBPMN.jpg)
