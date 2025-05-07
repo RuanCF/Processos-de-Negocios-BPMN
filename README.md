@@ -1,23 +1,24 @@
-# Tema escolhido: Pedido de Comida via Aplicativo com Pagamento e Entrega
-Modelagem de forma clara e "quase" completa do processo de solicitação de comida através de um aplicativo, envolvendo as etapas desde o login do cliente até a entrega do pedido e confirmação de recebimento. O processo contempla situações de falha no pagamento, rejeição de pedido, ausência de entregador, e falhas na entrega.
+# Tema: Pedido de Comida via Aplicativo com Pagamento e Entrega
+Este projeto apresenta uma modelagem detalhada do processo de solicitação de comida por meio de um aplicativo, abrangendo algumas das etapas desde o login do cliente até a confirmação final de entrega. O fluxo contempla diferentes possibilidades operacionais, incluindo falhas no pagamento, rejeição de pedidos pelo restaurante, ausência de entregadores disponíveis e problemas no momento da entrega ao cliente.
 
-## Participantes e Raias (Swimlanes)
-#### 1. Cliente
-Responsável por iniciar o processo, realizando login, escolhendo itens, definindo o endereço e forma de pagamento, e acompanhando a entrega até o recebimento do pedido.
+## Participantes e Raias (Swimlanes):
+### Cliente
+Responsável por iniciar e acompanhar todo o processo. Realiza o login ou cadastro, seleciona o endereço de entrega, escolhe os itens desejados, define a forma de pagamento e acompanha o andamento do pedido até sua conclusão.
 
-#### 2. Aplicativo (Sistema)
-Atua como intermediário entre cliente, restaurante e entregador. Valida o pagamento, gerencia o fluxo das informações e envia notificações.
+### Aplicativo (Sistema)
+Atua como intermediador entre os envolvidos (cliente, restaurante e entregador). É responsável por validar pagamentos, gerenciar o envio de dados entre as partes e notificar os participantes sobre o andamento do pedido.
 
-#### 3. Restaurante
-Recebe os pedidos, decide se irá aceitá-los ou não, prepara os pedidos aceitos e informa ao sistema quando estiverem prontos para retirada.
+### Restaurante
+Recebe os pedidos do sistema, decide pela aceitação ou recusa, realiza o preparo dos pedidos aceitos e sinaliza ao sistema quando estiverem prontos para retirada.
 
-#### 4. Entregador
-Responsável por aceitar a corrida, retirar o pedido no restaurante e entregá-lo ao cliente, com manejo de exceções caso o cliente não esteja disponível.
+### Entregador
+Responsável pela logística de entrega. Aceita ou recusa a corrida, realiza a retirada do pedido no restaurante e executa a entrega ao cliente. Caso enfrente dificuldades, como ausência de resposta do cliente, comunica-se com o restaurante para buscar uma solução.
 
-OBS.: Projeto está montado em cima do conceito de que o restaurante não apresenta um entregador fixo.
+Observação: O modelo considera que o restaurante não possui entregadores próprios fixos, utilizando um sistema de entrega terceirizado.
+
 
 ## Descrição das Etapas do Processo
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## Login / Registrar (Cliente)
 ### Descrição:
 O cliente inicia o processo acessando sua conta pessoal por meio de login ou, se for a primeira utilização, realizando o registro com informações básicas (nome, e-mail, senha, telefone). Essa autenticação é essencial para garantir segurança, associar o pedido a um perfil individual, acessar histórico de pedidos, endereços salvos e métodos de pagamento previamente cadastrados. Além disso, permite a personalização de ofertas e comunicação com o cliente ao longo do processo.
